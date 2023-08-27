@@ -1,0 +1,19 @@
+{
+  "id": "termux",
+  "name": "Termux",
+  "shortName": "Termux",
+  "version": "0.01",
+  "description": "Run Termux scripts on the phone.",
+  "icon": "app.png",
+  "screenshots": [{"url":"screenshot1.png"}],
+  "tags": "tool",
+  "supports": ["BANGLEJS2"],
+  "readme": "README.md",
+  "interface": "interface.html",
+  "allow_emulator": true,
+  "storage": [
+    {"name":"termux.app.js", "url":"app.js"},
+    {"name":"termux.img", "url":"app-icon.js", "evaluate":true}
+  ],
+  "data": [{"name":"termux.json"}]
+}

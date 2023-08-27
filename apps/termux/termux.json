@@ -1,0 +1,13 @@
+{
+    "commands": [
+      {
+        "name": "Hello",
+        "path": "/data/data/com.termux/files/usr/bin/termux-notification",
+        "arguments": ["-t", "Hi from Bangle"],
+        "workdir": "/data/data/com.termux/files/home",
+        "background": true,
+        "label": "Hello",
+        "description": "World"
+      }
+    ]
+}
